@@ -1,2 +1,4 @@
 Trained Model Resnet-50 on Google Drive:
 https://drive.google.com/drive/folders/1aIGy_5B--cP7p3-tIWfC9q6TShabXz8G?usp=sharing
+
+Total Accuracy on Test Dataset after train: ~0,95
