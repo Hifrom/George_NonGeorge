@@ -95,7 +95,7 @@ for epoch in range(epochs):
                 if (out[i].item() >= 0.5 and y[i].item() == 1.0) or (out[i].item() < 0.5 and y[i].item() == 0.0):
                     true_classifier += 1
         model.train()
-        accuracy_train = true_classifier / (len(train_loader.dataset) + 1)
+        accuracy_train = true_classifier / (len(train_loader.dataset))
         print(f'Train Accuracy: {accuracy_train}')
 
     # Calculate the Accuracy on Test Dataset
